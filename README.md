@@ -1,36 +1,41 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Lapozó — Landing Page Factory
 
-## Getting Started
+Productized service: custom landing pages for Hungarian auto mechanics (autószerelő).
+Price: 20,000 HUF flat. No monthly fees. 60-day guarantee.
 
-First, run the development server:
+## Repo structure
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+```
+pitch/              My sales page (lapozó.hu or similar)
+portfolio/          Example pages for cold outreach demos
+templates/          Master templates — clone per client
+clients/            One folder per paying client
+docs/               Workflow, offer, design notes
+_archive/           Previous scaffold (Next.js attempt)
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Shipping a new client (quick reference)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+# 1. Copy template
+cp -r templates/autoszerelo clients/[slug]
+cp templates/autoszerelo/config.example.json clients/[slug]/config.json
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+# 2. Fill in data, replace tokens, test in browser
 
-## Learn More
+# 3. Deploy
+git add clients/[slug]/
+git commit -m "feat: add client [slug]"
+git push
 
-To learn more about Next.js, take a look at the following resources:
+# 4. Vercel: new project → Root Directory: clients/[slug]
+# 5. Add custom domain in Vercel dashboard
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Full workflow: `docs/workflow.md`
+Per-client checklist: `clients/_README.md`
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Sales
+Cold outreach: Facebook Messenger, Google Maps email scrape.
+Pitch page: `pitch/index.html` (send this link to prospects).
+Portfolio: `portfolio/kovacs-autoszerviz/` (live example).

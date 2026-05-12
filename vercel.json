@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "pitch/index.html", "use": "@vercel/static" },
+    { "src": "portfolio/*/index.html", "use": "@vercel/static" },
+    { "src": "clients/*/index.html", "use": "@vercel/static" }
+  ],
+  "routes": [
+    { "src": "/pitch/(.*)", "dest": "/pitch/$1" },
+    { "src": "/portfolio/(.*)", "dest": "/portfolio/$1" },
+    { "src": "/clients/(.*)", "dest": "/clients/$1" },
+    { "src": "/", "dest": "/pitch/index.html" }
+  ]
+}

@@ -94,9 +94,9 @@
       "letsWork" : "Dolgozzunk együtt",
       "prevBtn" : "Valami hasonlót szeretnék",
       "about1" : "Mi az <b>Alpine Studios</b> vagyunk, egy fiatal web development duo akik kivételes User-Experience megteremtéséről híresek. Az innováció szenvedélyével és a minőség iránti elköteleződéssel, a lenyűgöző design-t egyesítjük a hatékony funkcionalitással, hogy életrekeltsük a weboldalakat.",
-      "about2" : "<b>Frontend Designer & Ügyfél Managerként</b>, <i>Varga Balázs</i> olyan terveket készít, amelyek a látogatókat vásárlókká alakítják. Főként a vizuálisan vonzó, felhasználóbarát felületek létrehozására összpontosít, miközben biztosítja a zökkenőmentes kommunikációt a megrendelő féllel. A development oldalon, <i>Severin Simon (a.k.a. @severinnHQ)</i>, szakértő <b>Webfejlesztőnk</b>, az ötleteket erős teljesítményű, bővíthető weboldallá alakítja, tiszta és hatékony kóddal, ráadásul kimagasló <b>SEO</b>-val.",
-      "about3" : "Együtt, modern, reszponzív és magas teljesítményű weboldalakra specializálódunk, mindezt ügyfeleink igényeire szabva. Legyen szó <b>startup</b>-ról, <b>kis-</b> és <b>nagyvállalkozásról</b>, vagy <b>nagynevű cégről</b>, itt vagyunk, hogy kreativitással és szakértelemmel növeljük a cégük online jelenlétét.",
-      "about4" : "",
+      "about2" : "<b>Frontend Designer & Ügyfél Managerként</b>, <i>Varga Balázs</i> olyan terveket készít, amelyek a látogatókat vásárlókká alakítják, és megbízhatóbbá teszik a brand-et. Főként a vizuálisan vonzó, felhasználóbarát felületek létrehozására összpontosít, miközben biztosítja a zökkenőmentes kommunikációt a megrendelő féllel. A development oldalon, <i>Severin Simon (a.k.a. @severinnHQ)</i>, szakértő <b>Webfejlesztőnk</b>, az ötleteket erős teljesítményű, bővíthető weboldallá alakítja, tiszta és hatékony kóddal, ráadásul kimagasló <b>SEO</b>-val.",
+      "about3" : "Együtt, modern, reszponzív és magas teljesítményű weboldalakra specializálódunk, mindezt ügyfeleint igényeire szabva. Legyen szó <b>startup</b>-ról, <b>kis-</b> és <b>nagyvállalkozásról</b>, vagy <b>nagynevű cégről</b>, itt vagyunk hogy kreativitással és szakértelemmel növeljük a cégük online jelenlétét.",
+      "about4" : "Építsünk valami rendkívül különlegeset!",
       "about5" : "Based in <b>Budapest, Magyarország</b>",
       "contact" : "KAPCSOLAT",
       "contact0" : "Nyugodtan küldjön nekünk üzenetet itt, és fel fogjuk venni Önökkel a kapcsolatot e-mail-en keresztül.",
@@ -323,6 +323,4 @@
       "h4-2": "Jeder Abschnitt der Seite wurde sorgfältig entworfen, um das Engagement der Nutzer zu maximieren. Das gesamte Design ist funktional und optisch ansprechend und spiegelt Square Agencys Engagement für Qualität und Innovation wider."
     }
   }
-
 }
-
